@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Young Serif';
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5dc;
+}
+
+.main-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.main-container * {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.image-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-title {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 20px;
+}
+
+.recipe-intro {
+    font-family: 'Young Serif', sans-serif;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.recipe-time {
+    margin: 0 100px;
+    padding: 25px 0;
+    background-color: #ffe9ec;
+    border-radius: 10px;
+    font-family: 'Young Serif', sans-serif;
+    font-size: 20px;
+}
+
+.recipe-time ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.recipe-time li {
+    margin: 25px 5px;
+    font-size: 16px;
+    text-indent: 20px;
+}
